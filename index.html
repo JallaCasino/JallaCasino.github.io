@@ -5,8 +5,7 @@
     <link rel="icon" type="image/x-icon" href="https://steamuserimages-a.akamaihd.net/ugc/1710789042755903607/F9694E842C5D501C9C18154626A80324E6F5BD36/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false">
     <style>
         body {
-            background-image: url('https://steamuserimages-a.akamaihd.net/ugc/1710789042755903607/F9694E842C5D501C9C18154626A80324E6F5BD36/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
-            background-size: cover;
+            background: none; /* Remove background from the body */
             margin: 0;
             padding: 0;
         }
@@ -14,9 +13,8 @@
         .header {
             text-align: center;
             font-family: 'Comic Sans MS', cursive;
-            color: white;
+            color: black; /* Change text color to black */
             padding: 20px;
-            background-color: rgba(0, 0, 0, 0.5);
         }
 
         .title {
@@ -28,9 +26,20 @@
         }
 
         .button {
-            display: block;
+            display: inline-block;
             text-align: center;
             margin-top: 20px;
+            padding: 10px 20px;
+            background-image: url('https://steamuserimages-a.akamaihd.net/ugc/1710789042755903607/F9694E842C5D501C9C18154626A80324E6F5BD36/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false'); /* Set background image for the button */
+            background-size: cover;
+            color: white; /* Change text color to white */
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .button:hover {
+            background-color: rgba(0, 0, 0, 0.5); /* Change background color on hover */
         }
     </style>
 </head>
@@ -38,7 +47,7 @@
     <div class="header">
         <h1 class="title">Jalla Casino</h1>
         <h2 class="subtitle">Dessa Edition</h2>
-        <a href="https://jallacasino.github.io/slope" class="button">Slope</a>
+        <a href="https://jallacasino.github.io/slope" class="button">Slope 2</a>
     </div>
 </body>
 </html>
